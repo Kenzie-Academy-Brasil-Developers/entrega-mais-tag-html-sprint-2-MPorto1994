@@ -1,0 +1,26 @@
+p {
+    text-align:justify ;
+}
+
+#socialMedia a{
+    font-size: 1em;
+    font-style: normal;
+    color: #333;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+#socialMedia img{
+    width: 1em;
+    size: 3px;
+}
+#socialMedia ul{
+    list-style-type: none;
+}
+/*Porque o meu hover não está se aplicando a todo o a, mas sim um de cada vez???*/
+#socialMedia a :hover{
+    font-weight: 800;
+    color: #262626;
+    font-size: 1.15em;
+    
+}
